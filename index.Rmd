@@ -1,0 +1,309 @@
+---
+title: "Module 7: Organizational Development"
+subtitle: "ADE5083: Human Resource Development"
+author: "Bret Staudt Willet | Florida State University"
+date: "November 16, 2026"
+output:
+  xaringan::moon_reader:
+    includes:
+      in_header: "favicon.html"
+    lib_dir: libs
+    seal: true
+    css: [default, 'custom.css', 'custom-fonts.css']
+    nature:
+      titleSlideClass: [left, bottom]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+
+```{r setup, include=FALSE}
+usethis::use_git_ignore(c("*.csv", "*.rds"))
+options(htmltools.dir.version = FALSE)
+
+library(knitr)
+library(tidyverse)
+library(xaringan)
+library(fontawesome)
+```
+
+
+
+class: inverse, center, middle
+
+# `r fa("fas fa-images", fill = "#fff")`
+
+**View the slides:** 
+
+[bretsw.com/ade5083-fs26-module7](https://bretsw.com/ade5083-fs26-module7)
+
+
+
+
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-cubes-stacked", fill = "#fff")` <br><br> Welcome to Module 7:<br>Organizational Development
+
+
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-cubes-stacked", fill = "#fff")` <br><br>Ch. 14 (Werner, 2022)<br>Organizational Development and Change
+
+---
+
+# `r fa("fas fa-cubes-stacked", fill = "#fff")` Ch. 14: Org Change Overview
+
+.pull-left-30[
+
+```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
+include_graphics("img/7-1-melt.jpg")
+```
+
+(Werner, 2022, Table 14.1, p. 499)
+
+]
+
+.pull-right-70[
+
+### Definition of Org Development:
+
+A system-wide application and transfer of behavioral science knowledge to the planned development, improvement, and reinforcement of the strategies, structures, and processes that lead to organizational effectiveness.
+
+
+### Schein's Stage Model of the Change Process:
+
+1. Unfreezing
+2. Changing
+3. Refreezing
+
+]
+
+
+
+---
+
+# `r fa("fas fa-cubes-stacked", fill = "#fff")` Ch. 14: Org Change Forces
+
+.pull-left[
+
+```{r, out.width = "90%", echo = FALSE, fig.align = "center"}
+include_graphics("img/7-2-ice-sun.jpg")
+```
+
+(Werner, 2022, Figure 14.2, p. 508)
+
+]
+
+.pull-right[
+
+### Forces for Change
+
+<br><br>
+
+### Forces Against Change
+
+]
+
+
+
+---
+
+# `r fa("fas fa-cubes-stacked", fill = "#fff")` Ch. 14: Interventions
+
+.pull-left[
+
+```{r, out.width = "80%", echo = FALSE, fig.align = "center"}
+include_graphics("img/7-3-ice-hand.jpg")
+```
+
+]
+
+.pull-right[
+
+### Types of Interventions
+
+- **Human process-based** (e.g., team building)
+
+- **Techno-structural** (e.g., job enrichment)
+
+- **Socio-technical system** (e.g. total quality management, self-managing teams)
+
+- **Organizational transformation** (e.g., cultural changes, strategic changes in purpose or mission)
+
+]
+
+
+
+
+
+---
+
+class: inverse, center, middle
+# `r fa("fas fa-clipboard-list", fill = "#fff")` <br><br>Ch. 15 (Werner, 2022)<br>HRD, Diversity and Inclusion: Beyond Diversity Training
+
+---
+
+# `r fa("fas fa-clipboard-list", fill = "#fff")` Ch. 15: Org Culture
+
+.pull-left-30[
+
+```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
+include_graphics("img/7-4-pixels.jpg")
+```
+
+]
+
+.pull-right-70[
+
+### Every organization has a culture
+
+- The pixels in the picture (looking closely)
+
+- What is seen as normal; preferred way of doing things
+
+
+### Challenge: Is the current culture the desired culture?
+
+- Are advancement opportunities available to everyone? (Glass Ceiling)
+
+- Is each person able to contribute their strengths to the whole? (Pixel Art)
+
+]
+
+
+
+---
+
+# `r fa("fas fa-clipboard-list", fill = "#fff")` Ch. 15: Whose Responsibility?
+
+.pull-left[
+
+```{r, out.width = "90%", echo = FALSE, fig.align = "center"}
+include_graphics("img/7-5-mosaic.jpg")
+```
+]
+
+.pull-right[
+
+### Everyone contributes to organizational culture
+
+- What can individuals do?
+
+- What can managers do?
+
+*Think about everything we've talked about this semester...*
+
+]
+
+
+
+
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-binoculars", fill = "#fff")` <br><br> Looking Ahead
+
+---
+
+# `r fa("fas fa-calendar-day", fill = "#fff")` Semester Schedule
+
+```{r, out.width = "360px", echo = FALSE, fig.align = "center"}
+include_graphics("img/across-time.jpg")
+```
+
+- **Module 1:** Foundations of HRD
+
+- **Module 2:** Assessing Learning Needs & Designing HRD Programs
+
+- **Module 3:** Implementing and Evaluating HRD Programs
+
+- **Module 4:** Onboarding & Training
+
+- **Module 5:** Performance Management
+
+- **Module 6:** Career Development
+
+- **Module 7: Organizational Development**
+
+
+
+---
+
+# `r fa("fas fa-calendar-day", fill = "#fff")` Assignments
+
+```{r, out.width = "300px", echo = FALSE, fig.align = "center"}
+include_graphics("img/build.jpg")
+```
+
+###`r fa("fas fa-keyboard", fill = "#782F40")` Final Project (25%)
+
+- Project Proposal (0 points) - Module 2
+
+- Annotated Bibliography 1 (50 points) - Module 3
+
+- Annotated Bibliography 2 (50 points) - Module 6
+
+- **HRD Project Report (150 points) - Module 7**
+
+
+
+
+
+
+---
+
+# `r fa("fas fa-screwdriver-wrench", fill = "#fff")` Module 7 Assignment
+
+.pull-left-30[
+
+```{r, out.width = "100%", echo = FALSE, fig.align = "center"}
+include_graphics("img/7-6-report.jpg")
+```
+
+]
+
+.pull-right-70[
+
+### HRD Project Report (150 points)
+
+**Practical Project**
+
+- Could be an analysis plan, an implementation plan, or an executive report, but should avoid granular training modules
+- Overall scope will be determined by your approved proposal
+
+**Research Paper**
+
+- Write an informative, thesis-driven academic paper exploring or applying course concepts to a specific setting
+- 1,750 - 2,000 words (no more than 8 double-spaced pages)
+
+]
+  
+  
+  
+  
+  
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-question", fill = "#fff")` <br><br> Questions
+
+<hr>
+
+**What questions can I answer for you now?**
+
+**How can I support you this week?**
+
+<hr>
+
+`r fa("envelope", fill = "#fff")` [bret.staudtwillet@fsu.edu](mailto:bret.staudtwillet@fsu.edu) | `r fa("globe", fill = "#fff")` [bretsw.com](https://bretsw.com) | `r fa("fab fa-github", fill = "#fff")` [GitHub](https://github.com/bretsw/)
